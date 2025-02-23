@@ -1,5 +1,7 @@
 # Nixie-Tube-Driver-with-RTC-RS485
 Nixie Driver for Nixie Clock and Display Project with RTC and RS485 
+![Ekran görüntüsü 2025-02-23 164856](https://github.com/user-attachments/assets/7326dce2-711e-4d75-aef4-e887b155dccb)
+![Ekran görüntüsü 2025-02-23 164843](https://github.com/user-attachments/assets/9a8f1a49-18ba-4dc8-bff9-4d0e7dfcc2dd)
 # 🔥 Nixie Driver for Nixie Clock & Display
 
 This project is a **Nixie tube driver** designed for **Nixie clock and display applications**, featuring **RTC (Real-Time Clock) support** and **RS485 communication**. The driver controls Nixie tubes for displaying time or numerical data while maintaining accurate timekeeping and supporting serial communication.
