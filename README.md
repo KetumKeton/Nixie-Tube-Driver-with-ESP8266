@@ -2,6 +2,8 @@
 Nixie Driver for Nixie Clock and Display Project with RTC and RS485 
 ![Ekran görüntüsü 2025-02-23 164856](https://github.com/user-attachments/assets/7326dce2-711e-4d75-aef4-e887b155dccb)
 ![Ekran görüntüsü 2025-02-23 164843](https://github.com/user-attachments/assets/9a8f1a49-18ba-4dc8-bff9-4d0e7dfcc2dd)
+![Ekran görüntüsü 2025-03-02 134058](https://github.com/user-attachments/assets/3b2ddd5a-3833-4a28-b4ae-37ccf3e6f8c9)
+
 # 🔥 Nixie Driver for Nixie Clock & Display
 
 This project is a **Nixie tube driver** designed for **Nixie clock and display applications**, featuring **RTC (Real-Time Clock) support** and **RS485 communication**. The driver controls Nixie tubes for displaying time or numerical data while maintaining accurate timekeeping and supporting serial communication.
@@ -40,7 +42,9 @@ Ensure you have the following components and dependencies:
 
 - [ ] Make Clock Program with AT89C4051 
 - [ ] Make a smaller pcb with smd and ULN2003 IC
-- [ ] Make 3D Case for watch
+- [X] Make 3D Case for watch
+- [ ] Make PCB and program tests
+- [ ] make part list and price calculation
 
 ## 📜 License
 
