@@ -46,11 +46,24 @@ Ensure you have the following components and dependencies:
 ## 📝 To-Do
 
 - [X] Make Clock Program with ~~AT89C4051~~ ESP8266 E-12 (V4)
-- [ ] Make a smaller pcb with smd and ULN2003 IC
+- [X] Make a smaller pcb with smd and ULN2003 IC
 - [X] Make 3D Case for watch
 - [ ] Make PCB and program tests
 - [X] make part list and price calculation
 - [ ] make a local server on esp8266 and set alarm and timezone
+
+**V5 Notes**
+The anode driver error was corrected.
+Additional capacitors were added to the power supplies for filtering.
+Internal diodes were added to the power inputs.
+The PCB was redrawn to 80x100mm.
+The CD4094 was redrawn to SO16.
+Some traces were thickened.
+The pin header sizes were adjusted.
+The capacitors in the 402 package were converted to 603.
+The OLED display was placed in a more visible location.
+The resistors for the Nixie Blue LEDs were converted to 1206 packages.
+The socket size for the Nixie tubes was adjusted.
 
 **V4 Notes**
 Microcontroller changed (from AT89C4051 to ESP8266)
