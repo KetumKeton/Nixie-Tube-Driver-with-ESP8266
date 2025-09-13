@@ -4,7 +4,8 @@ Nixie Driver for Nixie Clock and Display Project with Wifi.
 <img width="1370" height="824" alt="Ekran görüntüsü 2025-08-31 001109" src="https://github.com/user-attachments/assets/2ae7ff6d-469a-4a70-8298-256794306886" />
 <img width="1077" height="734" alt="Ekran görüntüsü 2025-08-31 001122" src="https://github.com/user-attachments/assets/a2d200bd-f095-4928-a477-27d7522b4023" />
 <img width="1014" height="843" alt="Ekran görüntüsü 2025-08-31 001139" src="https://github.com/user-attachments/assets/3e66e532-e43c-45bc-978e-af6343858142" />
-<img width="1189" height="835" alt="Ekran görüntüsü 2025-09-07 163917" src="https://github.com/user-attachments/assets/edd7c13b-6c60-4208-8928-cd077fc4de10" />
+<img width="1182" height="837" alt="Ekran görüntüsü 2025-09-13 171312" src="https://github.com/user-attachments/assets/f519ced5-8175-4bc9-874c-4660e8b8a4d7" />
+
 
 
 # 🔥 Nixie Driver for Nixie Clock & Display
