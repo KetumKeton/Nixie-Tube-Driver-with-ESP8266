@@ -1,9 +1,16 @@
 # Nixie-Tube-Driver-with-ESP8266
 Nixie Driver for Nixie Clock and Display Project with Wifi.
+
+V5 Photos
+
+<img width="783" height="820" alt="Ekran görüntüsü 2025-09-13 172655" src="https://github.com/user-attachments/assets/ed151df6-7bdc-4514-8768-c026d15e282c" />
+<img width="968" height="826" alt="Ekran görüntüsü 2025-09-13 172811" src="https://github.com/user-attachments/assets/da04cf70-9ded-4959-a171-0b254787be2e" />
+<img width="1493" height="819" alt="Ekran görüntüsü 2025-09-13 172850" src="https://github.com/user-attachments/assets/1a553609-4833-4b5c-81fb-1796cebf24e3" />
+<img width="683" height="774" alt="Ekran görüntüsü 2025-09-13 165822" src="https://github.com/user-attachments/assets/a84a09ac-cf14-42a8-9b22-8baa10a82bc5" />
+
+V4 Photos
 <img width="1209" height="835" alt="Ekran görüntüsü 2025-08-31 001054" src="https://github.com/user-attachments/assets/8d849aa2-8e42-4691-bbe2-91f55f53f14b" />
-<img width="1370" height="824" alt="Ekran görüntüsü 2025-08-31 001109" src="https://github.com/user-attachments/assets/2ae7ff6d-469a-4a70-8298-256794306886" />
-<img width="1077" height="734" alt="Ekran görüntüsü 2025-08-31 001122" src="https://github.com/user-attachments/assets/a2d200bd-f095-4928-a477-27d7522b4023" />
-<img width="1182" height="837" alt="Ekran görüntüsü 2025-09-13 171312" src="https://github.com/user-attachments/assets/f519ced5-8175-4bc9-874c-4660e8b8a4d7" />
+
 
 
 
@@ -53,26 +60,28 @@ Ensure you have the following components and dependencies:
 - [ ] make a local server on esp8266 and set alarm and timezone
 
 **V5 Notes**
-The anode driver error was corrected.
-Additional capacitors were added to the power supplies for filtering.
-Internal diodes were added to the power inputs.
-The PCB was redrawn to 80x100mm.
-The CD4094 was redrawn to SO16.
-Some traces were thickened.
-The pin header sizes were adjusted.
-The capacitors in the 402 package were converted to 603.
-The OLED display was placed in a more visible location.
-The resistors for the Nixie Blue LEDs were converted to 1206 packages.
-The socket size for the Nixie tubes was adjusted.
+
+- The anode driver error was corrected.
+- Additional capacitors were added to the power supplies for filtering.
+- Internal diodes were added to the power inputs.
+- The PCB was redrawn to 80x100mm.
+- The CD4094 was redrawn to SO16.
+- Some traces were thickened.
+- The pin header sizes were adjusted.
+- The capacitors in the 402 package were converted to 603.
+- The OLED display was placed in a more visible location.
+- The resistors for the Nixie Blue LEDs were converted to 1206 packages.
+- The socket size for the Nixie tubes was adjusted.
 
 **V4 Notes**
-Microcontroller changed (from AT89C4051 to ESP8266)
-Removed RS485 communication and added wi-fi.
-Nixie Driver has drive 4 nixie tubes same time with 16 transistor. (Multiplexing)
-Added Bitmap for better design pcb.
-Changed package from DIP to SMD for manufacturing and size improvements.
-HV and 12V input connected to external power supply (transformer)
-Added OLED display pins as an alternative output option
+
+- Microcontroller changed (from AT89C4051 to ESP8266)
+- Removed RS485 communication and added wi-fi.
+- Nixie Driver has drive 4 nixie tubes same time with 16 transistor. (Multiplexing)
+- Added Bitmap for better design pcb.
+- Changed package from DIP to SMD for manufacturing and size improvements.
+- HV and 12V input connected to external power supply (transformer)
+- Added OLED display pins as an alternative output option
 
 ## 📜 License
 
