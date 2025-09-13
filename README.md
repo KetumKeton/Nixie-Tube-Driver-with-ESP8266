@@ -6,6 +6,8 @@ V5 Photos
 <img width="783" height="820" alt="Ekran görüntüsü 2025-09-13 172655" src="https://github.com/user-attachments/assets/ed151df6-7bdc-4514-8768-c026d15e282c" />
 <img width="968" height="826" alt="Ekran görüntüsü 2025-09-13 172811" src="https://github.com/user-attachments/assets/da04cf70-9ded-4959-a171-0b254787be2e" />
 <img width="1493" height="819" alt="Ekran görüntüsü 2025-09-13 172850" src="https://github.com/user-attachments/assets/1a553609-4833-4b5c-81fb-1796cebf24e3" />
+<img width="1182" height="837" alt="Ekran görüntüsü 2025-09-13 171312" src="https://github.com/user-attachments/assets/c709db66-f506-4d4f-8ecb-214ca0fdd04e" />
+
 <img width="683" height="774" alt="Ekran görüntüsü 2025-09-13 165822" src="https://github.com/user-attachments/assets/a84a09ac-cf14-42a8-9b22-8baa10a82bc5" />
 
 V4 Photos
