@@ -47,12 +47,12 @@ Ensure you have the following components and dependencies:
 - [X] Make Clock Program with ~~AT89C4051~~ ESP8266 E-12 (V4)
 - [X] Make a smaller pcb with smd and ULN2003 IC
 - [X] Make 3D Case for watch
-- [ ] Make PCB and program tests
+- [X] Make PCB and program tests
 - [X] make part list and price calculation
 - [ ] make a local server on esp8266 and set alarm and timezone
 
 **V5 Notes**
-
+- Integrated MC34063 DC-DC converter to replace the external transformer power supply. (V5.1)
 - The anode driver error was corrected.
 - Additional capacitors were added to the power supplies for filtering.
 - Internal diodes were added to the power inputs.
@@ -69,7 +69,7 @@ Ensure you have the following components and dependencies:
 
 - Microcontroller changed (from AT89C4051 to ESP8266)
 - Removed RS485 communication and added wi-fi.
-- Nixie Driver has drive 4 nixie tubes same time with 16 transistor. (Multiplexing)
+- Nixie Driver has drive 4 nixie tubes same time with 16 transistor. (Time Division Multiplexing)
 - Added Bitmap for better design pcb.
 - Changed package from DIP to SMD for manufacturing and size improvements.
 - HV and 12V input connected to external power supply (transformer)
