@@ -5,7 +5,8 @@ Nixie Driver for Nixie Clock and Display Project with Wifi.
 ![V5.1 3D Image](V5.1/nixie-clock-3D-v5-1.png)
 ![V5.1 3D Image](V5.1/nixie-clock-pcb-v5-1.png)
 ![V5.1 3D Image](V5.1/nixie-clock-schematic-v5-1.png)
-
+![V5.1 HV Supply Image](V5.1/12V-HV-V1-2-3D.png)
+![V5.1 HV Supply Image](V5.1/12V-HV-V1-2-pcb.png)
 # 🔥 Nixie Driver for Nixie Clock & Display
 
 This project is a **Nixie tube driver** designed for **Nixie clock and display applications**, featuring **RTC (Real-Time Clock) support** and **RS485 communication**. The driver controls Nixie tubes for displaying time or numerical data while maintaining accurate timekeeping and supporting serial communication.
