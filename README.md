@@ -57,6 +57,22 @@ Ensure you have the following components and dependencies:
 - [X] make part list and price calculation
 - [ ] make a local server on esp8266 and set alarm and timezone
 
+**V6 Notes**
+- Changed bottom copper pour from GND to 3.3V for improved EMC.
+- Removed selectable 3.3V/5V power supply for shift registers.
+- Added 3.3V pull-up to Output Enable (OE) pin.
+- Changed AMS1117-3.3 input source from 12V to 5V.
+- Updated Nixie under-light LEDs power supply to 5V.
+- Added TVS diode to 3.3V rail for transient protection.
+- Added series inductor to ESP power line for noise filtering.
+- Repositioned ESP module to allow antenna overhang.
+- Added 22k current-limiting resistors to Nixie anodes.
+- Corrected power jack footprint to use slotted drills.
+Note on HV Converter (MC34063):
+- When using a 500pF capacitor, ensure the inductor value is 560µH or higher.
+- For the fast recovery diode, you can use UF4007, MBR2200, or HER208.
+- Note: I personally used HER208 in this build.
+
 **V5 Notes**
 - Integrated MC34063 DC-DC converter to replace the external transformer power supply. (V5.1)
 - The anode driver error was corrected.
