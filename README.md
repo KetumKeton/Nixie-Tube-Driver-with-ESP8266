@@ -2,12 +2,12 @@
 Nixie Driver for Nixie Clock and Display Project with Wifi.
 
 # V5 Photos
-![V5.2 PCB BUILD IMAGE](V5.1/5.1_PCB_Image)
+![V5.2 PCB BUILD IMAGE](V5.1/5.1_PCB_Image.jpeg)
 ![V5.2 3D Image](V5.1/nixie-clock-3D-v5-2.png)
 ![V5.2 3D Image](V5.1/nixie-clock-pcb-v5-2.png)
 ![V5.2 3D Image](V5.1/nixie-clock-schematic-v5-2.png)
-![V5.2 HV Supply Image](V5.1/HV Power pupply/12V-HV-V1-2-3D.png)
-![V5.2 HV Supply Image](V5.1/HV Power pupply/12V-HV-V1-2-pcb.png)
+[//]: # (![V5.2 HV Supply Image](V5.1/HV Power pupply/12V-HV-V1-2-3D.png))
+[//]: # (![V5.2 HV Supply Image](V5.1/HV Power pupply/12V-HV-V1-2-pcb.png))
 
 ![V5.2 HV Supply Image](V5.1/HV-Power-Supply/12V-HV-V1-2-3D.png)
 ![V5.2 HV Supply Image](V5.1/HV-Power-Supply/12V-HV-V1-2-pcb.png)
