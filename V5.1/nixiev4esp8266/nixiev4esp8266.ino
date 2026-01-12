@@ -14,7 +14,7 @@ NTPClient timeClient(ntpUDP, "pool.ntp.org", 3*3600, 60*1000);
 #define PIN_DATA   13   // SER
 #define PIN_CLK    12   // SRCLK
 #define PIN_LATCH  14   // RCLK (STROBE)
-#define PIN_OE     9   // /OE (LOW=enable). Blanking için kullanacağız.
+//#define PIN_OE     9   // /OE (LOW=enable). Blanking için kullanacağız.
 
 const bool INVERT_KATOT = false;  // katot sürücü lojik ters ise true yap
 const bool INVERT_ANOT  = false;  // anot sürücü lojik ters ise true yap
@@ -72,9 +72,9 @@ void shift16_LSBfirst(uint16_t value) {
 }
 
 // Blanking kontrol (/OE: LOW=enable, HIGH=tri-state)
-inline void outputsEnable(bool en) {
+/*inline void outputsEnable(bool en) {
   digitalWrite(PIN_OE, en ? LOW : HIGH);
-}
+}*/
 
 // Tek bir tüp için frame oluştur (katot + anot + noktalar)
 uint16_t buildFrame(uint8_t digit, uint8_t tubeIndex, bool dotL, bool dotR) {
@@ -121,7 +121,7 @@ void setup() {
   pinMode(PIN_CLK,   OUTPUT);
   pinMode(PIN_LATCH, OUTPUT);
 //  pinMode(PIN_OE,    OUTPUT);
-  outputsEnable(false); // Başta kapalı (tri-state)
+ // outputsEnable(false); // Başta kapalı (tri-state)
 
   // WiFi
   WiFi.mode(WIFI_STA);
@@ -162,7 +162,7 @@ void loop() {
   // 4 tüpü sırayla göster
   for (uint8_t t = 0; t < 4; t++) {
     // tüpler arası ghosting’i önle: önce çıkışları kapat
-    outputsEnable(false);
+   // outputsEnable(false);
 
     // noktalar: ortadaki iki tüp arasına gelecekse sağ/sol kullanımı
     bool dotL = (t == 1) ? dots : false; // 2. tüp sağında nokta (HH:MM görünümü için)
@@ -174,7 +174,7 @@ void loop() {
     shift16_LSBfirst(frame);
 
     // aktif et ve belirlenen süre açık tut
-    outputsEnable(true);
+   // outputsEnable(true);
     delayMicroseconds(ON_US_PER_TUBE);
   }
 }

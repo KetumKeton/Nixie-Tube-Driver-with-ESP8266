@@ -12,8 +12,6 @@ Nixie Driver for Nixie Clock and Display Project with Wifi.
 ![V6 3D Image](V6/NixieClock-V6-3D.png)
 
 ![V5.2 HV Supply Image](V5.1/HV-Power-Supply/12V-HV-V1-2-3D.png)
-![V5.2 HV Supply Image](V5.1/HV-Power-Supply/12V-HV-V1-2-pcb.png)
-![V5.2 HV Supply Image](V5.1/HV-Power-Supply/12V-HV-V1-2-schematic.png)
 # 🔥 Nixie Driver for Nixie Clock & Display
 
 This project is a **Nixie tube driver** designed for **Nixie clock and display applications**, featuring **RTC (Real-Time Clock) support** and **RS485 communication**. The driver controls Nixie tubes for displaying time or numerical data while maintaining accurate timekeeping and supporting serial communication.
@@ -68,12 +66,13 @@ Ensure you have the following components and dependencies:
 - Added TVS diode to 3.3V rail for transient protection.
 - Added series inductor to ESP power line for noise filtering.
 - Repositioned ESP module to allow antenna overhang.
-- Added 22k current-limiting resistors to Nixie anodes.
+- Added 22k current-limiting resistors to Nixie anodes. (I use 10k or 15k)
 - Corrected power jack footprint to use slotted drills.
 Note on HV Converter (MC34063):
-- When using a 500pF capacitor, ensure the inductor value is 560µH or higher.
+- When using a 500pF capacitor, ensure the inductor value is 560µH or higher. (I use 1mH)
 - For the fast recovery diode, you can use UF4007, MBR2200, or HER208.
 - Note: I personally used HER208 in this build.
+- tubes has a little voltage leak and i added bleeder resistor 470K-1M and i upgraded anode resistor from 10K to 15K and i downgrade working voltage from 190 (160k 1k) to 160V (160K 1.2K)
 
 **V5 Notes**
 - Integrated MC34063 DC-DC converter to replace the external transformer power supply. (V5.1)
