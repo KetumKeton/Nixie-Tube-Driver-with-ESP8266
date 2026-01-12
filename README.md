@@ -9,17 +9,15 @@ Nixie Driver for Nixie Clock and Display Project with Wifi.
 ![V5.2 Schematic Image](V5.1/nixie-clock-schematic-v5-2.png)
 # 🔥 Nixie Driver for Nixie Clock & Display
 
-This project is a **Nixie tube driver** designed for **Nixie clock and display applications**, featuring **RTC (Real-Time Clock) support** and **RS485 communication**. The driver controls Nixie tubes for displaying time or numerical data while maintaining accurate timekeeping and supporting serial communication.
+This project is a **Nixie tube driver** designed for **Nixie clock and display applications**, The driver controls Nixie tubes for displaying time or numerical data while maintaining accurate timekeeping and supporting serial communication.
 
 ## 📌 Features
 
-- 🕰 ~~**RTC Integration** – Keeps accurate time even when powered off.~~ (V4)
-- ~~🔗 **RS485 Communication** – Enables long-distance and reliable data transmission.~~ (V4)
 - 🔥 **Nixie Tube Control** – Supports various Nixie tube displays.  
 - 🔄 **Adjustable Brightness & Effects** – Smooth transitions and dimming support.  
 - 🔋 **Low Power Consumption** – Optimized for efficient operation.  
 -  **Beautiful Design for PCB** – PCB has been designed with improved aesthetics (V4)
-- **Wifi Connection and Real Time Clock Configuration** The ESP8266 Nixie driver includes an internal Wi-Fi module. It automatically connects to the internet to calibrate the clock. (V4)
+- **Wifi Connection and Real Time Clock Configuration** The ESP8266 Nixie driver includes an internal Wi-Fi module. It automatically connects to the internet to calibrate the clock.
 
 ## 🛠 Requirements
 
@@ -28,14 +26,12 @@ Ensure you have the following components and dependencies:
 - **Microcontroller** (e.g., STM32, ATmega, ESP32, etc.)  (ESP8266)
 - **Nixie Tubes** (e.g., IN-12, IN-14, IN-18, etc.) (This PCB designed for IN-16) 
 - **Nixie HV Power Supply** (150V DC)  
-- ~~**RTC Module** (DS1307)~~ (V4 ESP8266 has an internal RTC) 
-- ~~**RS485 Transceiver** (MAX485)~~(V4 has wifi)
 
 ## 🔧 Installation & Setup
 
 1. **Clone the repository**  
    ```sh
-   git clone https://github.com/Ketonkeko/Nixie-Tube-Driver-with-RTC-RS485.git
+   git clone https://github.com/Ketonkeko/Nixie-Tube-Driver-with-ESP8266.git
    cd Nixie-Tube-Driver-with-RTC-RS485
    ```
 
@@ -45,32 +41,16 @@ Ensure you have the following components and dependencies:
 
 ## 📝 To-Do
 
-- [X] Make Clock Program with ~~AT89C4051~~ ESP8266 E-12 (V4)
+- [X] Make Clock Program with ESP8266 E-12
 - [X] Make a smaller pcb with smd and ULN2003 IC
 - [X] Make 3D Case for watch
 - [X] Make PCB and program tests
 - [X] make part list and price calculation
 - [ ] make a local server on esp8266 and set alarm and timezone
 
-**V6 Notes**
-- Changed bottom copper pour from GND to 3.3V for improved EMC.
-- Removed selectable 3.3V/5V power supply for shift registers.
-- Added 3.3V pull-up to Output Enable (OE) pin.
-- Changed AMS1117-3.3 input source from 12V to 5V.
-- Updated Nixie under-light LEDs power supply to 5V.
-- Added TVS diode to 3.3V rail for transient protection.
-- Added series inductor to ESP power line for noise filtering.
-- Repositioned ESP module to allow antenna overhang.
-- Added 22k current-limiting resistors to Nixie anodes. (I use 10k or 15k)
-- Corrected power jack footprint to use slotted drills.
-Note on HV Converter (MC34063):
-- When using a 500pF capacitor, ensure the inductor value is 560µH or higher. (I use 1mH)
-- For the fast recovery diode, you can use UF4007, MBR2200, or HER208.
-- Note: I personally used HER208 in this build.
-- tubes has a little voltage leak and i added bleeder resistor 470K-1M and i upgraded anode resistor from 10K to 15K and i downgrade working voltage from 190 (160k 1k) to 160V (160K 1.2K)
 
 **V5 Notes**
-- Integrated MC34063 DC-DC converter to replace the external transformer power supply. (V5.1)
+- Integrated MC34063 DC-DC converter to replace the external transformer power supply. 
 - The anode driver error was corrected.
 - Additional capacitors were added to the power supplies for filtering.
 - Internal diodes were added to the power inputs.
