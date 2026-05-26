@@ -7,7 +7,9 @@ Nixie Driver for Nixie Clock and Display Project with Wifi.
 ![V5.2 3D Image](V5.1/nixie-clock-3D-v5-2.png)
 ![V5.2 PCB Image](V5.1/nixie-clock-pcb-v5-2.png)
 ![V5.2 Schematic Image](V5.1/nixie-clock-schematic-v5-2.png)
-![V5.2 App Image](V6/v4.png)
+![V5.2 App Image](V5.1/v4.png)
+![V6 App Image](V6/v6.png)
+![V6-VFD TEST Image](V6-VFD-NEC-LD8051/NEC-LD8051-TEST-IMAGE.jpg)
 
 # 🔥 Nixie Driver for Nixie Clock & Display
 
