@@ -3,10 +3,13 @@
 Wi-Fi bağlantılı, ESP8266 tabanlı Nixie tüp sürücü kartı. Nixie saat ve sayısal gösterge projeleri için tasarlanmıştır; interneti kullanarak saatini otomatik kalibre eder ve zaman bölmeli çoklama (time-division multiplexing) ile birden fazla tüpü aynı anda sürer.
 
 <p align="center">
-  <img src="V5.1/5.1_PCB_Image-3.jpg" alt="V5.2 PCB - üst" width="380">
-  <img src="V5.1/5.1_PCB_Image-4.jpg" alt="V5.2 PCB - alt" width="380">
+  <img src="V5.1/5.1_PCB_Image-3.jpg" alt="V5.2 Image" width="380">
+  <img src="V5.1/5.1_PCB_Image-4.jpg" alt="V5.2 Image" width="380">
 </p>
-
+<p align="center">
+  <img src="V6-VFD-NEC-LD8051/NEC-LD8051-DEMO-IMAGE.jpg" alt="V6-VFD Image" width="380">
+  <img src="" alt="V6-VFD Image" width="380">
+</p>
 ---
 
 ## 📖 İçindekiler
@@ -105,17 +108,27 @@ Bu proje, Nixie tüplerini (IN-16 için tasarlanmıştır, IN-12/IN-14/IN-18 gib
       <sub>V6 — Örnek uygulama</sub>
     </td>
     <td align="center">
-      <img src="V6-VFD-NEC-LD8051/NEC-LD8051-TEST-IMAGE.jpg" alt="V6 VFD Test" width="380"><br>
+      <img src="V6-VFD-NEC-LD8051/V6.1.0-VFD-UI-Image.png" alt="V6 VFD Test" width="380"><br>
       <sub>V6 — NEC LD8051 VFD test</sub>
     </td>
   </tr>
     <tr>
     <td align="center">
-      <img src="V6-VFD-NEC-LD8051/NEC-LD8051-DEMO-IMAGE.jpg" alt="V6 Uygulama Görseli" width="380"><br>
+      <img src="V6-VFD-NEC-LD8051/V6.1.0-VFD-PCB-Image.png" alt="V6 VFD Prototip" width="380"><br>
       <sub>V6 — Örnek uygulama</sub>
     </td>
     <td align="center">
-      <img src="V6-VFD-NEC-LD8051/NEC-LD8051-DEMO-IMAGE2.jpg" alt="V6 VFD Test" width="380"><br>
+      <img src="V6-VFD-NEC-LD8051/V6.1.0-VFD-3D-Image.png" alt="V6 VFD Prototip" width="380"><br>
+      <sub>V6 — NEC LD8051 VFD test</sub>
+    </td>
+  </tr>
+    <tr>
+    <td align="center">
+      <img src="V6-VFD-NEC-LD8051/NEC-LD8051-TEST-IMAGE.jpg" alt="V6 VFD Prototip" width="380"><br>
+      <sub>V6 — Örnek uygulama</sub>
+    </td>
+    <td align="center">
+      <img src="V6-VFD-NEC-LD8051/NEC-LD8051-DEMO-IMAGE2.jpg" alt="V6 VFD Prototip" width="380"><br>
       <sub>V6 — NEC LD8051 VFD test</sub>
     </td>
   </tr>
