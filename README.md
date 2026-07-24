@@ -1,3 +1,8 @@
+<div align="right">
+  <a href="README.en.md">🇬🇧 English</a> |
+  <a href="README.md">🇹🇷 Türkçe</a>
+</div>
+
 # 🔥 Nixie Tube Driver with ESP8266
 
 Wi-Fi bağlantılı, ESP8266 tabanlı Nixie tüp sürücü kartı. Nixie saat ve sayısal gösterge projeleri için tasarlanmıştır; interneti kullanarak saatini otomatik kalibre eder ve zaman bölmeli çoklama (time-division multiplexing) ile birden fazla tüpü aynı anda sürer.
@@ -30,10 +35,10 @@ Wi-Fi bağlantılı, ESP8266 tabanlı Nixie tüp sürücü kartı. Nixie saat ve
 
 Bu proje, Nixie tüplerini (IN-16 için tasarlanmıştır, IN-12/IN-14/IN-18 gibi diğer tüplerle de uyumludur / Pro versiyonunda NEC-8051 / IV-3 VFD tüplerine uygun tasarımda bulunmaktadır) sürmek için gereken yüksek gerilim anahtarlama devresini, mikrodenetleyici firmware'ini ve PCB tasarımını bir arada sunar. Kart, ESP8266 üzerinden internete bağlanarak NTP ile saatini otomatik senkronize eder, böylece harici bir RTC pil değişimine veya manuel saat ayarına gerek kalmaz.
 
-# Open Core - Community Edition
+### Open Core - Community Edition
 Açık kaynak felsefesine inandığım için, bu Nixie saatin temel versiyonunu herkesin kendi evinde yapabilmesi adına şemaları, kodları ve CAM dosyalarıyla v5.1 Comunity Edition olarak paylaşıyorum. Eğer kendi ESP8266'nızı programlamak, shift register'larla uğraşmak ve 170V DC-DC boost konvertör gibi yüksek voltajlı devreleri kendi başınıza kurmak istiyorsanız, ihtiyacınız olan her şey bu depoda mevcut!"
 
-# Proffesional Edition
+### Proffesional Edition
 "Ancak, lehim yapmakla, parça tedarikiyle veya yüksek voltajla uğraşmak istemiyorsanız; çok daha gelişmiş bir web arayüzüne, ekstra animasyon modlarına ve kusursuz bir tasarıma sahip olan tam donanımlı versiyonu doğrudan tak-çalıştır bir ürün olarak satın almak isterseniz aşşağıdaki iletişim adresinden bana ulaşabilirsiniz.
 
 Web Site: teknosunar.com / oztetik.com.tr
