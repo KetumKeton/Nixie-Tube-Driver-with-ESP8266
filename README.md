@@ -3,12 +3,12 @@
 Wi-Fi bağlantılı, ESP8266 tabanlı Nixie tüp sürücü kartı. Nixie saat ve sayısal gösterge projeleri için tasarlanmıştır; interneti kullanarak saatini otomatik kalibre eder ve zaman bölmeli çoklama (time-division multiplexing) ile birden fazla tüpü aynı anda sürer.
 
 <p align="center">
-  <img src="V5.1/5.1_PCB_Image-3.jpg" alt="V5.2 Image" width="380">
-  <img src="V5.1/5.1_PCB_Image-4.jpg" alt="V5.2 Image" width="380">
+  <img src="V5.1-Community-Edition/5.1_PCB_Image-3.jpg" alt="V5.2 Image" width="380">
+  <img src="V5.1-Community-Edition/5.1_PCB_Image-4.jpg" alt="V5.2 Image" width="380">
 </p>
 <p align="center">
-  <img src="V6-VFD-NEC-LD8051/NEC-LD8051-DEMO-IMAGE.jpg" alt="V6-VFD Image" width="380">
-  <img src="" alt="V6-VFD Image" width="380">
+    <img src="V6-Professional-Edition/poster.png" alt="V6-VFD Image" width="380">
+  <img src="V6-VFD-NEC-LD8051-Professional-Edition/NEC-LD8051-DEMO-IMAGE.jpg" alt="V6-VFD Image" width="380">
 </p>
 ---
 
@@ -28,7 +28,18 @@ Wi-Fi bağlantılı, ESP8266 tabanlı Nixie tüp sürücü kartı. Nixie saat ve
 
 ## 🧭 Proje Hakkında
 
-Bu proje, Nixie tüplerini (IN-16 için tasarlanmıştır, IN-12/IN-14/IN-18 gibi diğer tüplerle de uyumludur) sürmek için gereken yüksek gerilim anahtarlama devresini, mikrodenetleyici firmware'ini ve PCB tasarımını bir arada sunar. Kart, ESP8266 üzerinden internete bağlanarak NTP ile saatini otomatik senkronize eder, böylece harici bir RTC pil değişimine veya manuel saat ayarına gerek kalmaz.
+Bu proje, Nixie tüplerini (IN-16 için tasarlanmıştır, IN-12/IN-14/IN-18 gibi diğer tüplerle de uyumludur / Pro versiyonunda NEC-8051 / IV-3 VFD tüplerine uygun tasarımda bulunmaktadır) sürmek için gereken yüksek gerilim anahtarlama devresini, mikrodenetleyici firmware'ini ve PCB tasarımını bir arada sunar. Kart, ESP8266 üzerinden internete bağlanarak NTP ile saatini otomatik senkronize eder, böylece harici bir RTC pil değişimine veya manuel saat ayarına gerek kalmaz.
+
+# Open Core - Community Edition
+Açık kaynak felsefesine inandığım için, bu Nixie saatin temel versiyonunu herkesin kendi evinde yapabilmesi adına şemaları, kodları ve CAM dosyalarıyla v5.1 Comunity Edition olarak paylaşıyorum. Eğer kendi ESP8266'nızı programlamak, shift register'larla uğraşmak ve 170V DC-DC boost konvertör gibi yüksek voltajlı devreleri kendi başınıza kurmak istiyorsanız, ihtiyacınız olan her şey bu depoda mevcut!"
+
+# Proffesional Edition
+"Ancak, lehim yapmakla, parça tedarikiyle veya yüksek voltajla uğraşmak istemiyorsanız; çok daha gelişmiş bir web arayüzüne, ekstra animasyon modlarına ve kusursuz bir tasarıma sahip olan tam donanımlı versiyonu doğrudan tak-çalıştır bir ürün olarak satın almak isterseniz aşşağıdaki iletişim adresinden bana ulaşabilirsiniz.
+
+Web Site: teknosunar.com / oztetik.com.tr
+mail: info@teknosunar.com / ege@oztetik.com.tr
+github: KetumKeton
+linkedin: ege-oztetik
 
 ## ✨ Özellikler
 
@@ -84,41 +95,41 @@ Bu proje, Nixie tüplerini (IN-16 için tasarlanmıştır, IN-12/IN-14/IN-18 gib
 <table>
   <tr>
     <td align="center">
-      <img src="V5.1/nixie-clock-3D-v5-2.png" alt="V5.2 3D Görünüm" width="380"><br>
+      <img src="V5.1-Community-Edition/nixie-clock-3D-v5-2.png" alt="V5.2 3D Görünüm" width="380"><br>
       <sub>V5.2 — 3D model</sub>
     </td>
     <td align="center">
-      <img src="V5.1/nixie-clock-pcb-v5-2.png" alt="V5.2 PCB Görünümü" width="380"><br>
+      <img src="V5.1-Community-Edition/nixie-clock-pcb-v5-2.png" alt="V5.2 PCB Görünümü" width="380"><br>
       <sub>V5.2 — PCB düzeni</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="V5.1/nixie-clock-schematic-v5-2.png" alt="V5.2 Şematik" width="380"><br>
+      <img src="V5.1-Community-Edition/nixie-clock-schematic-v5-2.png" alt="V5.2 Şematik" width="380"><br>
       <sub>V5.2 — Şematik</sub>
     </td>
     <td align="center">
-      <img src="V5.1/v4.png" alt="V4 Uygulama Görseli" width="380"><br>
+      <img src="V5.1-Community-Edition/v4.png" alt="V4 Uygulama Görseli" width="380"><br>
       <sub>V4 — Örnek uygulama</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="V6/v6.png" alt="V6 Uygulama Görseli" width="380"><br>
+      <img src="V6-Professional-Edition/v6.png" alt="V6 Uygulama Görseli" width="380"><br>
       <sub>V6 — Örnek uygulama</sub>
     </td>
     <td align="center">
-      <img src="V6-VFD-NEC-LD8051/V6.1.0-VFD-UI-Image.png" alt="V6 VFD Test" width="380"><br>
+      <img src="V6-VFD-NEC-LD8051-Professional-Edition/V6.1.0-VFD-UI-Image.png" alt="V6 VFD Test" width="380"><br>
       <sub>V6 — NEC LD8051 VFD test</sub>
     </td>
   </tr>
     <tr>
     <td align="center">
-      <img src="V6-VFD-NEC-LD8051/V6.1.0-VFD-PCB-Image.png" alt="V6 VFD Prototip" width="380"><br>
+      <img src="V6-VFD-NEC-LD8051-Professional-Edition/V6.1.0-VFD-PCB-Image.png" alt="V6 VFD Prototip" width="380"><br>
       <sub>V6 — Örnek uygulama</sub>
     </td>
     <td align="center">
-      <img src="V6-VFD-NEC-LD8051/V6.1.0-VFD-3D-Image.png" alt="V6 VFD Prototip" width="380"><br>
+      <img src="V6-VFD-NEC-LD8051-Professional-Edition/V6.1.0-VFD-3D-Image.png" alt="V6 VFD Prototip" width="380"><br>
       <sub>V6 — NEC LD8051 VFD test</sub>
     </td>
   </tr>
