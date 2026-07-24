@@ -109,6 +109,16 @@ Bu proje, Nixie tüplerini (IN-16 için tasarlanmıştır, IN-12/IN-14/IN-18 gib
       <sub>V6 — NEC LD8051 VFD test</sub>
     </td>
   </tr>
+    <tr>
+    <td align="center">
+      <img src="V6-VFD-NEC-LD8051/NEC-LD8051-DEMO-IMAGE.jpg" alt="V6 Uygulama Görseli" width="380"><br>
+      <sub>V6 — Örnek uygulama</sub>
+    </td>
+    <td align="center">
+      <img src="V6-VFD-NEC-LD8051/NEC-LD8051-DEMO-IMAGE2.jpg" alt="V6 VFD Test" width="380"><br>
+      <sub>V6 — NEC LD8051 VFD test</sub>
+    </td>
+  </tr>
 </table>
 
 ## 🗂 Versiyon Notları
