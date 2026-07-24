@@ -78,7 +78,7 @@ However, if you'd rather not deal with soldering, sourcing components, or handli
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/Ketonkeko/Nixie-Tube-Driver-with-ESP8266.git
+   git clone [https://github.com/Ketonkeko/Nixie-Tube-Driver-with-ESP8266.git](https://github.com/Ketonkeko/Nixie-Tube-Driver-with-ESP8266.git)
    cd Nixie-Tube-Driver-with-ESP8266
    ```
 
@@ -141,11 +141,11 @@ However, if you'd rather not deal with soldering, sourcing components, or handli
   </tr>
     <tr>
     <td align="center">
-      <img src="V6-VFD-NEC-LD8051/NEC-LD8051-TEST-IMAGE.jpg" alt="V6 VFD Prototype" width="380"><br>
+      <img src="V6-VFD-NEC-LD8051-Professional-Edition/NEC-LD8051-TEST-IMAGE.jpg" alt="V6 VFD Prototype" width="380"><br>
       <sub>V6 — Example application</sub>
     </td>
     <td align="center">
-      <img src="V6-VFD-NEC-LD8051/NEC-LD8051-DEMO-IMAGE2.jpg" alt="V6 VFD Prototype" width="380"><br>
+      <img src="V6-VFD-NEC-LD8051-Professional-Edition/NEC-LD8051-DEMO-IMAGE2.jpg" alt="V6 VFD Prototype" width="380"><br>
       <sub>V6 — NEC LD8051 VFD test</sub>
     </td>
   </tr>
@@ -155,6 +155,15 @@ However, if you'd rather not deal with soldering, sourcing components, or handli
 
 ### V6 — VFD Support
 - Added experimental testing support for NEC LD8051 VFD (vacuum fluorescent display).
+- UI updated specifically for VFD tubes.
+- Enclosure designed (including socket design for OLED and VFD tubes).
+- Control schematic rewritten for a 7-segment layout and program updated accordingly.
+
+### V6 Notes
+- Program updates applied and new features added in v10-3 (Alarm, Operation Timer, Night Mode, Effects, Number Convergence Mode, Clock Display Formats, Local Time Options, etc.).
+- Protection components and bleeder resistor added.
+- Design changes implemented to make the operation much more stable.
+- Cathode poisoning protection and other safety features added to extend the operating lifespan of the tubes.
 
 ### V5 Notes
 - Integrated onboard MC34063 DC-DC converter instead of using an external transformer.
@@ -186,7 +195,12 @@ However, if you'd rather not deal with soldering, sourcing components, or handli
 - [x] 3D case design for the clock
 - [x] PCB and program tests
 - [x] Bill of materials (BOM) and cost calculation
-- [ ] Alarm and time zone configuration via local server on ESP8266
+- [x] Alarm and time zone configuration via local server on ESP8266
+- [x] UI Improvements
+- [ ] Various enclosure designs to be made
+- [ ] RTC module to be added
+- [ ] 6-Tube version to be designed
+- [ ] Plexiglass-LED version to be designed
 
 ## 📜 License
 

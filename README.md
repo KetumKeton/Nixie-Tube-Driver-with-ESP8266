@@ -140,11 +140,11 @@ linkedin: ege-oztetik
   </tr>
     <tr>
     <td align="center">
-      <img src="V6-VFD-NEC-LD8051/NEC-LD8051-TEST-IMAGE.jpg" alt="V6 VFD Prototip" width="380"><br>
+      <img src="V6-VFD-NEC-LD8051-Professional-Edition/NEC-LD8051-TEST-IMAGE.jpg" alt="V6 VFD Prototip" width="380"><br>
       <sub>V6 — Örnek uygulama</sub>
     </td>
     <td align="center">
-      <img src="V6-VFD-NEC-LD8051/NEC-LD8051-DEMO-IMAGE2.jpg" alt="V6 VFD Prototip" width="380"><br>
+      <img src="V6-VFD-NEC-LD8051-Professional-Edition/NEC-LD8051-DEMO-IMAGE2.jpg" alt="V6 VFD Prototip" width="380"><br>
       <sub>V6 — NEC LD8051 VFD test</sub>
     </td>
   </tr>
@@ -154,6 +154,16 @@ linkedin: ege-oztetik
 
 ### V6 — VFD Desteği
 - NEC LD8051 VFD (vakum floresan gösterge) ile deneysel test desteği eklendi.
+- UI VFD Tüplere Göre Güncellendi
+- Dış Kasa Tasarlandı (oled ve VFD tüleri için soket tasarımı dahil)
+- Kontrol Şeması 7 segment olucak şekilde yeniden yazıldı ve program güncellendi
+
+### V6 Notları
+- Program Güncellemeleri Yapıldı ve Yeni Özellikler Eklendi v10-3 (Alarm, Çalışma Zamanlayıcısı, Gece Modu, Effektler, Yakınsama Sayısı Modu, Saat Gösterim Şekilleri ve Yerel Zaman Seçenekleri vs)
+- Koruma Elemanları ve Bleeder direnci Eklendi 
+- Tasarım Değişiklikleri Yapıldı ve Çalışma daha Stabil Hale getirildi
+- Tüplerin Çalışma Ömrünü uzatmak amacıyla Katot koruması vb koruma özellikleri eklendi
+
 
 ### V5 Notları
 - Harici trafo yerine dahili MC34063 DC-DC çeviricisi entegre edildi.
@@ -185,7 +195,12 @@ linkedin: ege-oztetik
 - [x] Saat için 3D kasa tasarımı
 - [x] PCB ve program testleri
 - [x] Parça listesi ve maliyet hesaplaması
-- [ ] ESP8266 üzerinde yerel sunucu ile alarm ve saat dilimi ayarı
+- [X] ESP8266 üzerinde yerel sunucu ile alarm ve saat dilimi ayarı
+- [X] UI İyileştirmeleri
+- [ ] Çeşitli Dış Kasa Tasarımları Yapılıcak
+- [ ] RTC Eklenecek
+- [ ] 6 Tüplü Versiyon Tasarlanacak
+- [ ] Pleksi-Ledli Versiyon Tasarlanacak
 
 ## 📜 Lisans
 
